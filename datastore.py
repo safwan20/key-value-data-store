@@ -28,7 +28,7 @@ class Data :
                 json.dump(self.timetolive, sp, indent=4)
                 sp.close()
         
-    def create(self, key, value, sec=25) :
+    def create(self, key, value, sec=900) :
         self.lock.acquire()
 
         with open(self.filename) as fp :

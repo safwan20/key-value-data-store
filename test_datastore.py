@@ -41,6 +41,8 @@ class TestDataStore(unittest.TestCase) :
         2. error occur when key is not present in the store.
         3. else returns the value based on key.
 
+        *Note : time is taken 5 secs for testing purpose.
+
         '''
 
         self.assertRaises(
